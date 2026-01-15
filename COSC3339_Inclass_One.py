@@ -1,6 +1,6 @@
-# YOUR NAME HERE
-# YOUR SECTION HERE
-# DATE OF EDITING HERE
+# Richard Walker
+# 1
+# 1/15/26
 
 """
 ASSIGNMENT: INTRODUCTION TO MERGING
@@ -14,8 +14,8 @@ import math
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
 def calculate_hypotenuse(side_a, side_b):
-    result = side_a + side_b  
-    return result
+    result = (side_a ** 2) + (side_b ** 2)
+    return (result ** 2)
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
 def count_words(sentence):
