@@ -22,7 +22,7 @@ def count_words(sentence):
     if len(sentence) == 0:
         return 0
     words = sentence.split(' ') 
-    return words
+    return len(words)
 
 
 # This method is long to allow for non-overlapping edits.
