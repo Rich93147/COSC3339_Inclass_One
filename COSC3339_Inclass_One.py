@@ -21,8 +21,8 @@ def calculate_hypotenuse(side_a, side_b):
 def count_words(sentence):
     if len(sentence) == 0:
         return 0
-    words = sentence.split(',')  
-    return len(words)
+    words = sentence.split(' ') 
+    return words
 
 
 # This method is long to allow for non-overlapping edits.
