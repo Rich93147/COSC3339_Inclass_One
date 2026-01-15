@@ -38,14 +38,14 @@ def calculate_shipping_cost(weight, destination):
             extra_weight = weight - 10
             cost = base_cost + (extra_weight * 1.0)
             
-    elif destination == "International":
+    elif destination == "Bermuda Triangle":
         base_cost = 15.0
-        if weight <= 5:
+        if weight <= 20:
             cost = base_cost
         else:
             # Over 5 lbs, add $5 per extra lb
             extra_weight = weight - 5
-            cost = base_cost + (extra_weight * 5.0)
+            cost = base_cost + (extra_weight * 20.0)
             
     else:
         # Unknown destination
