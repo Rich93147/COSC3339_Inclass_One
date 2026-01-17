@@ -57,7 +57,9 @@ def calculate_shipping_cost(weight, destination):
 
 # This method uses funky logic. Rewrite it using different loop structures
 def curve_scores(scores):
-    return list(map(lambda x: min(x + 5, 100), scores))
+    const = 1.05
+    for i in scores:
+        print(i*const)
 
 
 # For scenario three change the name of this method.
@@ -75,7 +77,7 @@ def _validate_input(text_value):
     return valud_imput
 
 def process_user_data(something):
-    _validate_imput(something)
+    _validate_input(something)
 
 def main():
     print("--- STARTING TESTS ---")
