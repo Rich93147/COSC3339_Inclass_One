@@ -78,7 +78,7 @@ def _validate_input(text_value):
     return valud_imput
 
 def process_user_data(something):
-    _validate_imput(something)
+    _validate_input(something)
 
 def main():
     print("--- STARTING TESTS ---")
