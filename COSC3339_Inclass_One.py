@@ -9,7 +9,7 @@ This file contains several methods with logical errors, poor style,
 and complex constructs. Your goal is to fix them across multiple 
 branches to simulate merge conflicts.
 """
-
+import random
 import math
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
@@ -57,9 +57,10 @@ def calculate_shipping_cost(weight, destination):
 
 # This method uses funky logic. Rewrite it using different loop structures
 def curve_scores(scores):
-    const = 1.05
-    for i in scores:
-        print(i*const)
+    count = 0
+    while (count != len(scores)):
+        print(scores[count] + random.randint(1,10))
+        count += 1
 
 
 # For scenario three change the name of this method.
